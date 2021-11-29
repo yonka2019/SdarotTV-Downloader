@@ -19,7 +19,7 @@ namespace SdarotTV_Downloader
         public MainForm()
         {
             InitializeComponent();
-            FindSuitableDriver();
+            //FindSuitableDriver();
             seriesDriver = CreateChromeDriver();
             downloadLocation = Consts.DEFAULT_DOWNLOAD_LOCATION;
             DownloadLocation_Label.Text = Consts.DEFAULT_DOWNLOAD_LOCATION;

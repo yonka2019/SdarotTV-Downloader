@@ -14,7 +14,7 @@ namespace SdarotTV_Downloader
         public static string CHROME_DRIVERS_FOLDER = "chromedrivers\\";
         public static string CHROME_DRIVER_FILE = "chromedriver.exe";
 
-        public static string SITE_URL = "https://sdarot.space/";
+        public static string SITE_URL = "https://sdarot.work/";
         public static string SEARCH_URL = SITE_URL + "search?term=";
         public static string SERIES_URL = SITE_URL + "watch";
         public static string VIDEO_HTML_ID = "videojs_html5_api";
